@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9896ec8ab30f13c4da58010e53aa6684, type: 3}
+  m_Name: Iceshard
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: 8fccad5a7dcc5d64d9f3f020d9188cb5, type: 3}
+  Cooldown: 2
+  ChannelTime: 0.7
+  Range: 6
+  CastAudio: {fileID: 8300000, guid: 2c24767cb4ec38a46bb8f7bfc5d3f6e2, type: 3}
+  projectilePrefab: {fileID: -5362897183719562616, guid: e34f9ba2857d1364a83019bc8e50a500,
+    type: 3}

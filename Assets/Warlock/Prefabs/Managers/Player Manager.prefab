@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7314614324492849372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7314614324492849373}
+  - component: {fileID: 7314614324492849371}
+  - component: {fileID: 7314614324492849370}
+  m_Layer: 0
+  m_Name: Player Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7314614324492849373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7314614324492849372}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7314614324492849371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7314614324492849372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverOnly: 0
+  m_AssetId: 
+  m_SceneId: 0
+--- !u!114 &7314614324492849370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7314614324492849372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdcf251fd4f249a4d9a60bea2ebc196e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  defaults:
+  - Name: Red
+    Color: {r: 0.8867924, g: 0.27189392, b: 0.27189392, a: 1}
+  - Name: Blue
+    Color: {r: 0.27450976, g: 0.3787251, b: 0.8901961, a: 1}
+  - Name: Green
+    Color: {r: 0.3019704, g: 0.8901961, b: 0.27450976, a: 1}
+  - Name: Yellow
+    Color: {r: 0.8901961, g: 0.81379235, b: 0.27450976, a: 1}
+  - Name: Cyan
+    Color: {r: 0.27450976, g: 0.86558497, b: 0.8901961, a: 1}
+  - Name: Purple
+    Color: {r: 0.66047573, g: 0.27450976, b: 0.8901961, a: 1}
+  - Name: Orange
+    Color: {r: 0.8901961, g: 0.6057043, b: 0.27450976, a: 1}
+  - Name: Pink
+    Color: {r: 0.8901961, g: 0.27450976, b: 0.7340891, a: 1}
